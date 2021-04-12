@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 12)
     (tracks 474)
     (zones 0)
     (modules 56)
@@ -2484,13 +2484,6 @@
     )
   )
 
-  (gr_text "Taylor Simpson" (at 43.65625 29.36875) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_line (start 37.30625 27.78125) (end 67.46875 27.78125) (layer F.SilkS) (width 0.12))
-  (gr_text GENESIS (at 52.3875 24.60625) (layer F.SilkS)
-    (effects (font (size 5.08 5.08) (thickness 0.15)))
-  )
   (gr_line (start 127.79375 142.08125) (end 33.3375 142.08125) (layer Edge.Cuts) (width 0.05) (tstamp 6074AF01))
   (gr_line (start 129.38125 49.2125) (end 129.38125 140.49375) (layer Edge.Cuts) (width 0.05) (tstamp 6074AEFC))
   (gr_line (start 138.90625 20.6375) (end 138.90625 38.703251) (layer Edge.Cuts) (width 0.05) (tstamp 6074AEFB))
