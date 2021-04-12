@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 476)
     (zones 0)
     (modules 56)
@@ -2484,6 +2484,7 @@
     )
   )
 
+  (gr_poly (pts (xy 74.6125 34.925) (xy 111.125 34.925) (xy 111.125 39.6875) (xy 67.46875 39.6875) (xy 55.5625 27.78125) (xy 67.46875 27.78125)) (layer F.SilkS) (width 0.1))
   (gr_poly (pts (xy 130.96875 38.89375) (xy 123.825 46.0375) (xy 123.825 138.90625) (xy 120.65 142.08125) (xy 111.91875 142.08125) (xy 111.91875 28.575) (xy 121.44375 19.05) (xy 130.96875 19.05)) (layer F.SilkS) (width 0.1))
   (gr_text "Taylor Simpson" (at 43.65625 29.36875) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
