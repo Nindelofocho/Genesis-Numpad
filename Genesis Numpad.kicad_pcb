@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
-    (tracks 474)
+    (drawings 17)
+    (tracks 476)
     (zones 0)
     (modules 56)
     (nets 60)
@@ -18,7 +18,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user)
+    (37 F.SilkS user hide)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -2484,6 +2484,8 @@
     )
   )
 
+  (gr_poly (pts (xy 74.6125 34.925) (xy 111.125 34.925) (xy 111.125 39.6875) (xy 67.46875 39.6875) (xy 55.5625 27.78125) (xy 67.46875 27.78125)) (layer F.SilkS) (width 0.1))
+  (gr_poly (pts (xy 130.96875 38.89375) (xy 123.825 46.0375) (xy 123.825 138.90625) (xy 120.65 142.08125) (xy 111.91875 142.08125) (xy 111.91875 28.575) (xy 121.44375 19.05) (xy 130.96875 19.05)) (layer F.SilkS) (width 0.1))
   (gr_text "Taylor Simpson" (at 43.65625 29.36875) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -2543,6 +2545,8 @@
   (segment (start 133.767751 36.866751) (end 133.767751 36.094749) (width 0.381) (layer B.Cu) (net 1))
   (segment (start 133.767751 36.094749) (end 134.14375 35.71875) (width 0.381) (layer B.Cu) (net 1))
   (segment (start 134.14375 35.71875) (end 134.14375 34.925) (width 0.381) (layer B.Cu) (net 1))
+  (segment (start 124.233332 27.272314) (end 124.233332 27.372918) (width 0.381) (layer B.Cu) (net 1))
+  (segment (start 124.233332 27.372918) (end 123.03125 28.575) (width 0.381) (layer B.Cu) (net 1))
   (segment (start 125.893751 26.743266) (end 125.893751 25.563751) (width 0.381) (layer B.Cu) (net 2))
   (segment (start 124.799017 27.838) (end 125.893751 26.743266) (width 0.381) (layer B.Cu) (net 2))
   (segment (start 125.893751 25.563751) (end 126.746 24.711502) (width 0.381) (layer B.Cu) (net 2))
